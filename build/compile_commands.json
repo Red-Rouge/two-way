@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/C++/test/build",
+  "command": "gcc  @CMakeFiles/test_win.dir/includes_C.rsp  -Wall -pthread  -fdiagnostics-color  -std=c17 -g -o CMakeFiles\\test_win.dir\\src\\linklist.c.obj -c D:\\C++\\test\\src\\linklist.c",
+  "file": "D:/C++/test/src/linklist.c",
+  "output": "CMakeFiles/test_win.dir/src/linklist.c.obj"
+},
+{
+  "directory": "D:/C++/test/build",
+  "command": "gcc  @CMakeFiles/test_win.dir/includes_C.rsp  -Wall -pthread  -fdiagnostics-color  -std=c17 -g -o CMakeFiles\\test_win.dir\\src\\main.c.obj -c D:\\C++\\test\\src\\main.c",
+  "file": "D:/C++/test/src/main.c",
+  "output": "CMakeFiles/test_win.dir/src/main.c.obj"
+}
+]

@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\first.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\first.dir/objects.a @CMakeFiles\first.dir\objects1.rsp
+gcc -g -Wl,--whole-archive CMakeFiles\first.dir/objects.a -Wl,--no-whole-archive -o D:\C++\test\bin\first.exe -Wl,--out-implib,libfirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\first.dir\linkLibs.rsp

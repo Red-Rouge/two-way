@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\test_win.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\test_win.dir/objects.a @CMakeFiles\test_win.dir\objects1.rsp
+gcc  -Wall -pthread  -fdiagnostics-color  -std=c17 -g -Wl,--whole-archive CMakeFiles\test_win.dir/objects.a -Wl,--no-whole-archive -o D:\C++\test\bin\test_win.exe -Wl,--out-implib,libtest_win.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_win.dir\linkLibs.rsp

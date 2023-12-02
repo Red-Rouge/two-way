@@ -1,0 +1,1 @@
+gcc  -Wall -pthread  -fdiagnostics-color  -std=c17 CMakeFiles/test_linux.dir/src/linklist.c.o CMakeFiles/test_linux.dir/src/main.c.o -o ../bin/test_linux 
