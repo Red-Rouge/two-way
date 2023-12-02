@@ -19,7 +19,7 @@ typedef struct DLinkNode
     int val;
     struct DLinkNode *prev;
     struct DLinkNode *next;
-} DLink;
+} DLink; //双向循环的
 
 //节点初始化
 int dlist_init(DLink *node, int val);

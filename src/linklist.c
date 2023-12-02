@@ -271,13 +271,18 @@ int dlist_del_val(DLink *head, int val)
     {
         return -1;
     }
-    else if (head->next->next == NULL && head->next->val == val)
+    else if (head->next->next == NULL)
     {
-        free(head->next);
-        head->next = NULL;
-        return 0;
+        if (head->next->val == val)
+        {
+            free(head->next);
+            head->next = NULL;
+            return 0;
+        }
+        else
+            return -1;
     }
-    else if (head->next->next->val == val && head->next->next == head->next->prev)
+    else if (head->next->next->val == val && head->next->next == head->next->prev && head->next->next != NULL)
     {
         free(head->next->next);
         head->next->next = NULL;
@@ -358,7 +363,7 @@ int dlist_del_pos(DLink *head, int pos)
 
 int dlist_sort(DLink *head, int mode)
 {
-    if (head == NULL || head->next == NULL)
+    if (head == NULL || head->next == NULL || mode < 0 || mode > 2 || head->next->next == NULL)
     {
         return -1;
     }
