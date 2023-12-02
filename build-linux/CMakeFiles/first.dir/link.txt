@@ -1,1 +1,0 @@
-gcc CMakeFiles/first.dir/src/linklist.c.o CMakeFiles/first.dir/src/main.c.o -o first 

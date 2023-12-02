@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/C++/test/src/linklist.c" "CMakeFiles/first.dir/src/linklist.c.o" "gcc" "CMakeFiles/first.dir/src/linklist.c.o.d"
-  "/mnt/d/C++/test/src/main.c" "CMakeFiles/first.dir/src/main.c.o" "gcc" "CMakeFiles/first.dir/src/main.c.o.d"
+  "/mnt/d/C++/test/src/linklist.c" "CMakeFiles/test_linux.dir/src/linklist.c.o" "gcc" "CMakeFiles/test_linux.dir/src/linklist.c.o.d"
+  "/mnt/d/C++/test/src/main.c" "CMakeFiles/test_linux.dir/src/main.c.o" "gcc" "CMakeFiles/test_linux.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

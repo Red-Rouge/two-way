@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/mnt/d/C++/test/inc
 
-C_FLAGS = 
+C_FLAGS =  -Wall -pthread  -fdiagnostics-color  -std=c17 -g
 

@@ -228,6 +228,9 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/usr/bin/git
+
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
@@ -239,15 +242,6 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-Q7R4QCM
-
-//Value Computed by CMake
-first_BINARY_DIR:STATIC=/mnt/d/C++/test/build-linux
-
-//Value Computed by CMake
-first_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-first_SOURCE_DIR:STATIC=/mnt/d/C++/test
 
 //Value Computed by CMake
 test_linux_BINARY_DIR:STATIC=/mnt/d/C++/test/build-linux
@@ -418,6 +412,8 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
